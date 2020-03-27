@@ -110,48 +110,7 @@ INSERT INTO `likesdislikes` (`id`, `idUser`, `idVid`, `Accion`) VALUES
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `user_resp_imagenes`
---
 
-CREATE TABLE `user_resp_imagenes` (
-  `id_usuario` int(11) NOT NULL,
-  `s1_ti_linguistica` int(11) NOT NULL,
-  `s1_ti_matematica` int(11) NOT NULL,
-  `s1_ti_naturalista` int(11) NOT NULL,
-  `s1_ti_musical` int(11) NOT NULL,
-  `s1_ti_interpersonal` int(11) NOT NULL,
-  `s1_ti_intrapersonal` int(11) NOT NULL,
-  `s2_ea_activo` int(11) NOT NULL,
-  `s2_ea_reflexivo` int(11) NOT NULL,
-  `s2_ea_sensitivo` int(11) NOT NULL,
-  `s2_ea_intuitivo` int(11) NOT NULL,
-  `s2_ea_visual` int(11) NOT NULL,
-  `s2_ea_verbal` int(11) NOT NULL,
-  `s2_ea_secuencial` int(11) NOT NULL,
-  `s2_ea_global` int(11) NOT NULL,
-  `s3_ti_linguistica` int(11) NOT NULL,
-  `s3_ti_matematica` int(11) NOT NULL,
-  `s3_ti_naturalista` int(11) NOT NULL,
-  `s3_ti_musical` int(11) NOT NULL,
-  `s3_ti_intrapersonal` int(11) NOT NULL,
-  `s3_ti_interpersonal` int(11) NOT NULL,
-  `s4_ea_verbal` int(11) NOT NULL,
-  `s4_ea_reflexivo` int(11) NOT NULL,
-  `s4_ea_activo` int(11) NOT NULL,
-  `s4_ea_sensitivo` int(11) NOT NULL,
-  `s4_ea_intuitivo` int(11) NOT NULL,
-  `s4_ea_visual` int(11) NOT NULL,
-  `s4_ea_secuencial` int(11) NOT NULL,
-  `s4_ea_global` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `user_resp_imagenes`
---
-
-INSERT INTO `user_resp_imagenes` (`id_usuario`, `s1_ti_linguistica`, `s1_ti_matematica`, `s1_ti_naturalista`, `s1_ti_musical`, `s1_ti_interpersonal`, `s1_ti_intrapersonal`, `s2_ea_activo`, `s2_ea_reflexivo`, `s2_ea_sensitivo`, `s2_ea_intuitivo`, `s2_ea_visual`, `s2_ea_verbal`, `s2_ea_secuencial`, `s2_ea_global`, `s3_ti_linguistica`, `s3_ti_matematica`, `s3_ti_naturalista`, `s3_ti_musical`, `s3_ti_intrapersonal`, `s3_ti_interpersonal`, `s4_ea_verbal`, `s4_ea_reflexivo`, `s4_ea_activo`, `s4_ea_sensitivo`, `s4_ea_intuitivo`, `s4_ea_visual`, `s4_ea_secuencial`, `s4_ea_global`) VALUES
-(33, 2, 3, 6, 1, 5, 4, 1, 2, 3, 4, 5, 6, 7, 8, 1, 2, 3, 4, 5, 6, 6, 1, 2, 3, 4, 5, 7, 8),
-(34, 1, 3, 6, 4, 2, 5, 5, 2, 4, 1, 3, 6, 7, 8, 3, 2, 1, 4, 6, 5, 1, 2, 3, 4, 5, 6, 7, 8);
 
 -- --------------------------------------------------------
 
